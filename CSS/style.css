@@ -12,11 +12,10 @@
 }
 
 .logo {
-  height: 20rem;
-  width: 20rem;
+  height: 6.4rem;
   margin-left: 5rem;
-  margin-top: 15rem;
-  border-radius: 30%;
+  /* margin-top: 15rem; */
+  border-radius: 50%;
 }
 
 /***************************/
@@ -46,6 +45,9 @@
 
 .hero-img {
   width: 100%;
+  border-radius: 10%;
+  /* border-color: antiquewhite;
+  border: 2rem; */
 }
 
 .example-imgs {
@@ -77,7 +79,7 @@
 }
 
 .some-imgs-text span {
-  color: #044c06;
+  color: #595f39;
   font-weight: 800;
 }
 
@@ -90,9 +92,9 @@
 }
 
 .step-sentence {
-  font-size: 8.6rem;
-  font-weight: 600;
-  color: #ddd;
+  font-size: 4.6rem;
+  font-weight: 400;
+  color: #085066;
   margin-bottom: 1.2rem;
 }
 
@@ -120,24 +122,24 @@
 }
 
 .step-img-box::before {
-  width: 60%;
-  /* height: 60%; */
+  width: 90%;
+  height: 20%;
   /* 60% of parent's width */
   padding-bottom: 60%;
-
-  background-color: #fdf2e9;
+  background-color: #e4e4de;
   z-index: -2;
 }
 
 .step-img-box::after {
-  width: 45%;
-  padding-bottom: 50%;
-  background-color: #fae5d3;
+  width: 90%;
+  padding-bottom: 60%;
+  background-color: #c4c5ba;
   z-index: -1;
 }
 
 .step-img {
-  width: 35%;
+  width: 80%;
+  border-radius: 10%;
 }
 
 .section-about {

@@ -4,14 +4,18 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 62.5%;
+  font-size: 90.5%;
 }
 
 body {
-  font-family: "Rubik" sans-serif;
+  font-family: "Marck Script", cursive;
+
   line-height: 1;
   font-weight: 400;
-  color: #555;
+  /* color: #555; */
+  color: #1b1b1b;
+  /* color: #e4e4de; */
+  /* color: #c4c5ba; */
 }
 
 /***************************/
@@ -33,9 +37,9 @@ body {
   grid-template-columns: repeat(2, 1fr);
 }
 
-/* .grid--center-v {
+.grid--center-v {
   align-items: center;
-} bunun faydasi yok acarsin html de 70. line a container grid elemente bunu 'grid-center-v' ekle */
+}
 
 .heading-primary,
 .heading-secondary {
@@ -58,9 +62,9 @@ body {
 
 .subheading {
   display: block;
-  font-size: 1.6rem;
-  font-weight: 500;
-  color: #941083;
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #595f39;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
@@ -69,7 +73,7 @@ body {
 .btn:link,
 .btn:visited {
   display: inline-block;
-  color: #f1a0f0;
+  color: #c4c5ba;
   text-decoration: none;
   font-size: 2rem;
   font-weight: 600;
@@ -80,25 +84,25 @@ body {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: purple;
-  color: #f1a0f0;
+  background-color: #b9b999;
+  color: #1b1b1b;
 }
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #4e8276;
+  background-color: #97a062;
 }
 
 .btn--outline:link,
 .btn--outline:visited {
-  background-color: #f1a0f0;
-  color: #555;
+  background-color: #e4e4de;
+  color: #1b1b1b;
 }
 
 .btn--outline:hover,
 .btn--outline:active {
   background-color: #fdf2e9;
-  box-shadow: inset 0 0 0 3px #f1a0f0;
+  box-shadow: inset 0 0 0 3px #595f39;
 }
 
 .margin-right-sm {
