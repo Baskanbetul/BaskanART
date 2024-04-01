@@ -145,3 +145,90 @@
 .section-about {
   margin: 0 30rem;
 }
+
+/***************************/
+/* ART SECTION */
+/***************************/
+
+.section-arts {
+  padding: 9.6rem 0;
+}
+
+.art {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 40px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.art:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+.art-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.art-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+/* .tag--art {
+  background-color: #51cf66;
+} */
+
+.tag--name {
+  background-color: #94d82d;
+}
+
+.tag--made {
+  background-color: #ffd43b;
+}
+
+.art-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.art-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.art-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.art-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
+}
+
+.art-img {
+  width: 100%;
+}
+
+.go-main-page {
+  text-align: center;
+  font-size: 1.8rem;
+}
