@@ -275,7 +275,7 @@
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
 }
@@ -283,6 +283,7 @@
 .gallery-item {
   overflow: hidden;
 }
+
 .gallery-item img {
   display: block;
   width: 100%;
