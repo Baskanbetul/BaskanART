@@ -280,6 +280,13 @@
   padding: 1.6rem;
 }
 
+.gallery-woodart {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
 .gallery-item {
   overflow: hidden;
 }
