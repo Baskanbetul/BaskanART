@@ -280,13 +280,6 @@
   padding: 1.6rem;
 }
 
-.gallery-woodart {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 1.6rem;
-  padding: 1.6rem;
-}
-
 .gallery-item {
   overflow: hidden;
 }
@@ -300,4 +293,35 @@
 
 .gallery-item img:hover {
   transform: scale(1.1);
+}
+
+/* WOODART SECTION */
+
+.section-otherarts {
+  background-color: #faeec7;
+}
+
+.woodarts-container {
+  margin-top: 3rem;
+}
+
+.title-woodart {
+  font-size: 3.6rem;
+  color: #e67e22;
+  margin-left: 50rem;
+}
+
+.explain-woodart {
+  font-size: 2.8rem;
+  margin-top: 3rem;
+  margin-left: 2.5rem;
+  margin-bottom: -5rem;
+  line-height: 1.2;
+}
+
+.gallery-woodart {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
 }
