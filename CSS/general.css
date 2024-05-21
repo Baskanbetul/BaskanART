@@ -143,3 +143,10 @@ body {
 strong {
   font-weight: 500;
 }
+
+.link-page {
+  font-size: 3rem;
+  color: rgba(4, 53, 4, 0.751);
+  text-decoration: none;
+  transition: all 0.3s;
+}
